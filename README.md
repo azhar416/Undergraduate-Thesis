@@ -11,7 +11,7 @@ Published By: [ICTS 2023](https://ieeexplore.ieee.org/xpl/conhome/10330802/proce
 
 Fish-gres Dataset : https://data.mendeley.com/datasets/76cr3wfhff/1
 
-## Image Enhancement
+## Augmentation with Image Enhancement
 
 1. Histogram Equalization
 2. Contrast Limited Adaptive Histogram Equalization
@@ -33,3 +33,9 @@ List Model that used on this paper:
 CNN Without Pre-Trained Model Architecture
 
 ![CNN Architecture](./img/Picture1.jpg)
+
+For Pre-Trained model architecture, just change the convolutional layer with pre-trained model architecture and the rest is the same.
+
+## Training Process
+
+Every Architecture Model trained by 3 Training Data without other augmentations.
